@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSessionBindingEvent;
  * @type 监听域对象的属性变化的监听器 
  * @description: 
  * @author zc-cris
+ * 
  */
 @WebListener
 public class AttributeListener implements ServletContextAttributeListener, ServletRequestAttributeListener, HttpSessionAttributeListener {
